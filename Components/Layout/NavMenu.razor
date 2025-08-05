@@ -1,0 +1,64 @@
+﻿<div class="top-row ps-3 navbar navbar-dark custom-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand stylish-title" href="Home">Sparksware</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable custom-navbar">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="Home" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="weather">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+<style>
+ 
+
+    .custom-navbar {
+        background-color: #4caf50 !important; /* Medium green */
+    }
+
+    .navbar-brand.stylish-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: white !important;
+        font-size: 1.6rem;
+    }
+
+    .nav-link {
+        color: white !important;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .nav-link:hover {
+            background-color: #66bb6a !important; /* lighter green */
+            color: white !important;
+        }
+
+        .nav-link.active {
+            background-color: white !important;
+            color: #4caf50 !important; /* medium green */
+            font-weight: 600;
+        }
+
+    .nav-scrollable {
+        padding-top: 10px;
+    }
+</style>

@@ -1,0 +1,37 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">Logout</NavLink>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+<style>
+    /* Make logout link green and visible */
+    .top-row .nav-link {
+        color: #4caf50 !important; /* medium green */
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .top-row .nav-link:hover {
+            color: #388e3c !important; /* darker green on hover */
+            text-decoration: underline;
+        }
+</style>

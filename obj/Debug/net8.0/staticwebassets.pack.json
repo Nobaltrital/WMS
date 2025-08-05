@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WMS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WMS.f4kba7zbfk.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WMS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WMS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WMS.props",
+      "PackagePath": "build\\WMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WMS.props",
+      "PackagePath": "buildMultiTargeting\\WMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WMS.props",
+      "PackagePath": "buildTransitive\\WMS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

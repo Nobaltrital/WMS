@@ -31,3 +31,4 @@ C:\Users\NITRO\Desktop\Software Engineering project\WMS\WMS\obj\Debug\net8.0\ref
 C:\Users\NITRO\Desktop\Software Engineering project\WMS\WMS\obj\Debug\net8.0\WMS.pdb
 C:\Users\NITRO\Desktop\Software Engineering project\WMS\WMS\obj\Debug\net8.0\WMS.genruntimeconfig.cache
 C:\Users\NITRO\Desktop\Software Engineering project\WMS\WMS\obj\Debug\net8.0\ref\WMS.dll
+C:\Users\NITRO\Desktop\Software Engineering project\WMS\WMS\obj\Debug\net8.0\WMS.sourcelink.json

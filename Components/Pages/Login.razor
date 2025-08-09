@@ -19,6 +19,10 @@
             <InputText id="password" type="password" @bind-Value="loginModel.Password" class="input" />
             <ValidationMessage For="()=>loginModel.Password" />
             <button type="submit">Login</button>
+            @if (!string.IsNullOrEmpty(loginError))
+            {
+                <p style="color:red; margin-top:10px;">@loginError</p>
+            }
         </div>
     </div>
 </EditForm>

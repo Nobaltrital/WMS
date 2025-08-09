@@ -144,8 +144,7 @@
             var claims = new List<Claim>
         {
             new Claim(ClaimTypes.Name, loginModel.Username),
-            // You can add roles here if you want, like:
-            // new Claim(ClaimTypes.Role, "Admin")
+           
         };
 
             var identity = new ClaimsIdentity(claims, Constants.AuthScheme);

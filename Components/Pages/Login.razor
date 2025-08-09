@@ -1,126 +1,172 @@
 ﻿@page "/"
 @layout Vanilla
+@inject NavigationManager Navigation
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin" FormName="@LoginForm">
 
-<div class="wrapper">
-    <div class="green-box">
-        <div class="branding">
-            <h2>Sparksware</h2>
-            <img src="" alt="Logo" />
+    <div class="wrapper">
+        <div class="green-box">
+            <div class="branding">
+                <h2>Sparksware</h2>
+                <img src="" alt="Logo" />
+            </div>
+        </div>
+
+        <div class="login-box">
+            <label for="username">Username</label>
+            <InputText id="username" @bind-Value="loginModel.Username" class="input" />
+            <ValidationMessage For="()=>loginModel.Username" />
+            <label for="password">Password</label>
+            <InputText id="password" type="password" @bind-Value="loginModel.Password" class="input" />
+            <ValidationMessage For="()=>loginModel.Password" />
+            <button type="submit">Login</button>
         </div>
     </div>
+</EditForm>
 
-    <div class="login-box">
-        <label for="username">Username</label>
-        <input id="username" @bind="username" />
-
-        <label for="password">Password</label>
-        <input id="password" type="password" @bind="password" />
-
-        <button @onclick="login">Login</button>
-    </div>
-</div>
 
 <style>
     body {
-        margin: 0;
-        padding: 0;
-        background-color: white;
-        font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
     }
 
     .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        gap: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 0;
     }
 
     .green-box, .login-box {
-        width: 320px;
-        height: 380px;
-        padding: 30px;
-        box-sizing: border-box;
+    width: 320px;
+    height: 380px;
+    padding: 30px;
+    box-sizing: border-box;
     }
 
     .green-box {
-        background-color: #4caf50;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     }
 
     .branding {
-        text-align: center;
+    text-align: center;
     }
 
-        .branding h2 {
-            margin-bottom: 20px;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 600;
-            font-size: 1.8rem;
-        }
+    .branding h2 {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    }
 
-        .branding img {
-            width: 100px;
-            height: 100px;
-            object-fit: contain;
-            background-color: white;
-            border-radius: 8px;
-        }
+    .branding img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 8px;
+    }
 
     .login-box {
-        background-color: #f5f5f5;
-        border: 2px solid #4caf50;
-        border-left: none;
-        box-shadow: 0 0 5px #4caf50;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
+    background-color: #f5f5f5;
+    border: 2px solid #4caf50;
+    border-left: none;
+    box-shadow: 0 0 5px #4caf50;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     }
 
     label {
-        font-size: 0.9rem;
-        color: #333;
+    font-size: 0.9rem;
+    color: #333;
     }
 
-    input {
-        padding: 8px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        outline: none;
+    .input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
     }
 
-        input:focus {
-            border-color: #4caf50;
-        }
+    .input:focus {
+    border-color: #4caf50;
+    }
 
     button {
-        background-color: #4caf50;
-        color: white;
-        padding: 10px;
-        border: none;
-        border-radius: 4px;
-        font-weight: bold;
-        cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
     }
 
-        button:hover {
-            background-color: #388e3c;
-        }
+    button:hover {
+    background-color: #388e3c;
+    }
 </style>
 
 @code {
-    private string username;
-    private string password;
-
-    private void login()
+    private const string LoginForm = "login-form";
+    private string loginError;
+    [SupplyParameterFromForm(FormName = LoginForm)]
+    private LoginModel loginModel{ get; set; } = new();
+    [CascadingParameter]
+    public HttpContext HttpContext { get; set; } = default!;
+    private async Task HandleLogin()
     {
-       
+        await Task.Delay(500);
+
+        bool validUser = false;
+
+        if (loginModel.Username == "admin1" && loginModel.Password == "password123")
+            validUser = true;
+        else if (loginModel.Username == "worker1" && loginModel.Password == "password1")
+            validUser = true;
+        else if (loginModel.Username == "officer1" && loginModel.Password == "password12")
+            validUser = true;
+
+        if (validUser)
+        {
+            var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, loginModel.Username),
+            // You can add roles here if you want, like:
+            // new Claim(ClaimTypes.Role, "Admin")
+        };
+
+            var identity = new ClaimsIdentity(claims, Constants.AuthScheme);
+            var principal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(Constants.AuthScheme, principal);
+
+            loginError = null;
+            Navigation.NavigateTo("/home", forceLoad: true);
+        }
+        else
+        {
+            loginError = "Invalid username or password.";
+        }
+    }
+
+
+
+    public class LoginModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }

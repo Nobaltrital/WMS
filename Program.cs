@@ -1,4 +1,7 @@
+using WMS;
 using WMS.Components;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +9,21 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+
+builder.Services.AddAuthentication(Constants.AuthScheme)
+    .AddCookie(Constants.AuthScheme, options =>
+    {
+        options.Cookie.Name = Constants.AuthCookie;
+        options.LoginPath = "/";
+        options.AccessDeniedPath = "/";
+        options.LogoutPath = "/";
+        options.Cookie.HttpOnly = true;
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+        options.Cookie.SameSite = SameSiteMode.Strict;
+        options.ExpireTimeSpan = TimeSpan.FromDays(1);
+        options.SlidingExpiration = true; 
+
+    });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -19,6 +37,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
+app.UseAuthentication()
+    .UseAuthorization();
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()

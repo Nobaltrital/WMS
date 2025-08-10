@@ -24,6 +24,7 @@ builder.Services.AddAuthentication(Constants.AuthScheme)
         options.SlidingExpiration = true; 
 
     });
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

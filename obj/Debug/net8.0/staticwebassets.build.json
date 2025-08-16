@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fw+h2Ty/OXDSlFENB7Uee8La4qYfxOXnEyDc2ztWFHA=",
+  "Hash": "ln6hQGPLd3aNG2QXE+TRwZ9UFIB09onTVz3Y+jzHpBY=",
   "Source": "WMS",
   "BasePath": "_content/WMS",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WMS\\wwwroot",
       "Source": "WMS",
-      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\",
       "BasePath": "_content/WMS",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.styles.css",
+      "Identity": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.styles.css",
       "SourceId": "WMS",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WMS",
       "RelativePath": "WMS#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "YQ+SlcSH2wnxEqHk+hRO5SSOFP+fhHq2RXHHG7IAxUo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.styles.css"
+      "OriginalItemSpec": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.styles.css"
     },
     {
-      "Identity": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WMS.bundle.scp.css",
+      "Identity": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WMS.bundle.scp.css",
       "SourceId": "WMS",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WMS",
       "RelativePath": "WMS#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "YQ+SlcSH2wnxEqHk+hRO5SSOFP+fhHq2RXHHG7IAxUo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WMS.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WMS.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\app.css",
       "SourceId": "WMS",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\",
       "BasePath": "_content/WMS",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "WMS",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\",
       "BasePath": "_content/WMS",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "WMS",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\",
       "BasePath": "_content/WMS",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\favicon.png",
       "SourceId": "WMS",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\",
       "BasePath": "_content/WMS",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -183,7 +183,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -228,7 +228,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -273,7 +273,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -310,7 +310,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -355,7 +355,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -392,7 +392,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -437,7 +437,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -474,7 +474,7 @@
     },
     {
       "Route": "WMS.bundle.scp.css",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WMS.bundle.scp.css",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WMS.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -511,7 +511,7 @@
     },
     {
       "Route": "WMS.f4kba7zbfk.bundle.scp.css",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WMS.bundle.scp.css",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WMS.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -556,7 +556,7 @@
     },
     {
       "Route": "WMS.f4kba7zbfk.styles.css",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.styles.css",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -601,7 +601,7 @@
     },
     {
       "Route": "WMS.styles.css",
-      "AssetFile": "C:\\Users\\NITRO\\Desktop\\Software Engineering project\\WMS\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.styles.css",
+      "AssetFile": "C:\\Users\\NITRO\\Desktop\\SE_backup\\Main\\WMS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WMS.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

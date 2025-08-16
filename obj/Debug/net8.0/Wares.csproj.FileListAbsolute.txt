@@ -1,0 +1,6 @@
+C:\Users\NITRO\Desktop\SE_backup\Main\WMS\obj\Debug\net8.0\Wares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NITRO\Desktop\SE_backup\Main\WMS\obj\Debug\net8.0\Wares.AssemblyInfoInputs.cache
+C:\Users\NITRO\Desktop\SE_backup\Main\WMS\obj\Debug\net8.0\Wares.AssemblyInfo.cs
+C:\Users\NITRO\Desktop\SE_backup\Main\WMS\obj\Debug\net8.0\Wares.csproj.CoreCompileInputs.cache
+C:\Users\NITRO\Desktop\SE_backup\Main\WMS\obj\Debug\net8.0\Wares.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NITRO\Desktop\SE_backup\Main\WMS\obj\Debug\net8.0\Wares.sourcelink.json
